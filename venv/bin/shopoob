@@ -1,0 +1,7 @@
+#!/home/alex/PycharmProjects/bankr/venv/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'weboob==1.6','shopoob'
+__requires__ = 'weboob==1.6'
+__import__('pkg_resources').require('weboob==1.6')
+__file__ = '/home/alex/PycharmProjects/Scrapping/weboob/scripts/shopoob'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))
